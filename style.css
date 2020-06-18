@@ -1,0 +1,62 @@
+body{
+    text-align:center;
+}
+
+h3  {
+    padding: 0;
+    margin: 0;
+}
+p { 
+    padding: 0;
+margin: 0;
+}
+
+#gameContainer{
+    background-color: #121212;
+    margin: 0 auto; 
+    text-align: center;
+    position: relative;
+    top:30px;
+    width: 600px;
+    height: 600px;
+
+}
+
+#snake { 
+    position: absolute;
+    background-color: skyblue;
+    width:   10px;
+    height: 10px;
+    z-index: 1;
+    border: 1px solid black;
+    border-radius: 30%;
+
+}
+
+
+.snakeTail { 
+    position: absolute;
+    background-color: white;
+    width:   10px;
+    height: 10px;
+    z-index: 0;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+
+#food { 
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width:   10px;
+    height: 10px;
+    z-index: 2;
+}
+
+#score  { 
+    text-align: center;
+    font-size: 36px;
+    padding: 0;
+}
